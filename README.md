@@ -1,5 +1,5 @@
 # raylib-mines
-raylib-mines is a [raylib](https://www.raylib.com/) example project, cloning the classic minesweeper game. This is a community project, and not an official raylib example project. Official examples are available on bot the raylib website, and in the raylib GitHub repository.
+raylib-mines is a [raylib](https://www.raylib.com/) example project, cloning the classic minesweeper game. This is a community project, and not an official raylib example project. Official examples are available on bot the raylib website, and in the raylib GitHub repository. It demonstrates texture loading, drawing, and input handling.
 
 ## Compiling
 This project has been tested for compiling with GCC version 11, using standard C99. It can be compiled either with the `build_linux.sh` script on Linux, or `build_windows.bat` on Windows, which both assume you have GCC installed and added to your PATH envrionment variable. If you are using a different compiler, first see the [Raylib](#Raylib) section for compiling raylib for your compiler.
@@ -7,13 +7,13 @@ This project has been tested for compiling with GCC version 11, using standard C
 ### Building and running on Linux
 ```
 $ ./build_linux.sh
-$ ./bin/mines
+$ ./bin/linux/mines
 ```
 
 ### Building and running on Windows
 ```
 > build_windows.bat
-> bin\mines
+> bin\windows\mines
 ```
 
 ## Raylib

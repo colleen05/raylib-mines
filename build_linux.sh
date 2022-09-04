@@ -1,0 +1,1 @@
+gcc -o bin/linux/mines src/*.c -Iinclude -Llib -lraylib -std=C99
