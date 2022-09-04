@@ -13,7 +13,7 @@ $ ./bin/linux/mines
 ### Building and running on Windows
 ```
 > build_windows.bat
-> bin\windows\mines
+> bin\windows\mines.exe
 ```
 
 ## Raylib
