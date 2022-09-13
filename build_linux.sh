@@ -1,1 +1,1 @@
-gcc -o bin/linux/mines src/*.c -Iinclude -Llib -lraylib -std=C99
+gcc -o bin/linux/mines src/*.c -Iinclude -Llib/linux -lraylib -lm -std=c99

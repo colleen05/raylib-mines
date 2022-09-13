@@ -1,0 +1,4 @@
+.vscode/*
+
+bin/linux/mines
+bin/windows/mines.exe

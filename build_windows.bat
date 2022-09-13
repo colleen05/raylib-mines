@@ -1,0 +1,1 @@
+gcc -o bin/windows/mines.exe src/*.c -Iinclude -Llib/windows -lraylib -lwinmm -lkernel32 -lgdi32 -lopengl32 -std=c99
