@@ -301,7 +301,7 @@ void do_minefield() {
     if(g_bDoTimer) g_iRoundTimer = GetTime() - g_iRoundStart;
 
     char *txt_timer = calloc(1, 5);
-    sprintf(txt_timer, "%*i", 4, (int) Clamp(g_iRoundTimer, 0, g_iFieldMines));
+    sprintf(txt_timer, "%*i", 4, (int) Clamp(g_iRoundTimer, 0, 9999));
 
     DrawTextureRec(g_TexStatusBar, g_pRecStatusNumbers[txt_timer[0] - '0'], (Vector2) {GetScreenWidth() - 160.0f, 36.0f}, WHITE);
     DrawTextureRec(g_TexStatusBar, g_pRecStatusNumbers[txt_timer[1] - '0'], (Vector2) {GetScreenWidth() - 128.0f, 36.0f}, WHITE);
